@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mike.medium</groupId>
+        <artifactId>parent-starter--bom</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!-- the current version of this library is set in the parent internal dependencies -->
+    <artifactId>com.mike.medium</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>parent-starter--utilities</name>
+
+    <dependencies>
+        <!-- every dependency declared here should not have its version explicitly set.
+         the parent starter should do this in the <dependencyManagement> section -->
+    </dependencies>
+
+</project>
